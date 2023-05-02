@@ -1,0 +1,33 @@
+footer
+{
+    background-color: black;
+    max-width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .copyright{
+        color: white;
+    }
+}
+@media (min-width:2560px)
+{
+    .copyright{
+        color: white;
+        font-size: 30px;
+    }
+}
+@media (min-width:375px) and (max-width:425px) 
+{
+    footer
+    {
+        height: 6vh;
+        .copyright{
+            color: white;
+            font-size: 10px;
+
+        }
+    }
+
+    
+}
